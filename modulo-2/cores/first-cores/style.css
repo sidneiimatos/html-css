@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: radial-gradient(circle, red, yellow, green);
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+p {
+    color: white;
+}

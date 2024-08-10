@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="./img/yuri-alberto-p.png">
+        <source media="(max-width: 1050px)" srcset="./img/yuri-alberto-m.png">
+        <img src="./img/yuri-alberto-g.png" alt="Imagem normal do yuri gol">
+    </picture>
+
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="metadata" controls loop>
+        <source src="/midia/guanacast-33.mp3" type="audio/mpeg">
+        <p>Este navegador não suporta este tipo de audio.</p>
+    </audio>
+
+
+    <h1>Reproduzindo videos do Youtube</h1>
+    <p>Vamos aprender a reproduzir videos em HTML5</p>
+    <h2>Videos de sua midia</h2>
+    <video width="500" src="./midia/minecraft.mkv" type="video/mp4" controls></video>
+    <h2>Rio de janeiro</h2>
+    <p>Arquivo padrão</p>
+    <video width="500" src="./midia/rio-de-janeiro-pesado.mp4" type="video/mp4" controls loop></video>
+    <p>Arquivo otimizado</p>
+    <video width="500" src="./midia/rio-de-janeiro-leve.mp4" type="audio/mp4" controls loop></video>
+
+    <h2>Videos externo do youtube</h2>
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" frameborder="0"></iframe>
+</body>
+</html>
